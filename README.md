@@ -1,15 +1,19 @@
 ### To Potential Cloners and Master-Zip Downloaders
-This repo USED to be oversized and basically non-clone-able. That has changed due to Zipping and Torrentization - have at it!
+This repository USED to be over-sized and basically non-clone-able.
+This PRELIM branch does not contain the largest "Sorted-Into-Chunks" Folder, but has not been pruned for newline duplicates.
+This branch will be pulled to master once all of the largest files have been zipped and torrentized.
 
 ![Probable Wordlists Logo](https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/ProbableWordlistLogo.png)
 
 
 ### Rev 1.1 Task List
 * [x] Explain methodology
-* [ ] Make Quick-fix for duplicates caused by newline and blankspace characters (not a full fix)
-* [ ] Upload WPA-Chunks
-* [ ] Super-Zip the smaller files
-* [ ] Make some torrents for the big files (didn't expect it to catch on!)
+* [ ] Make Quick-fix for duplicates caused by newline and blankspace characters (not a full fix - Rev 1.2 will be fixed from source)
+* [x] Super-Zip the Dictionary-Style files (in Prelim Branch Only)
+* [ ] Make torrents for the big files
+
+### Rev 1.2 Task List
+* [] Re-compile Wordlists from start without newline and blankspace duplicates
 
 ### Rev 2 List
 * More sources
@@ -18,7 +22,7 @@ This repo USED to be oversized and basically non-clone-able. That has changed du
 
 ### Laser-Guided Wordlist Generator in the works as well.
 
-There are some great wordlists out there, but I decided to amalgamate, edit, trim and create a few of my own.
+There are some great Wordlists out there, but I decided to amalgamate, edit, trim and create a few of my own.
 
 I did not steal, phish, deceive or hack in any way to get hold of these passwords. 
 All lines in these files were obtained through freely available means.
@@ -26,14 +30,14 @@ All lines in these files were obtained through freely available means.
 # Probable Wordlists
 Wordlists sorted by popularity originally created for password generation and testing
 
-### Why slog through an encyclopedic, alphabetized wordlist when you can start with the words people are most likely to use?
+### Why slog through an encyclopedic, alphabetized Wordlist when you can start with the words people are most likely to use?
 #### Methodology - The Why and How
 
  While I was able to locate a few Password Wordlists that were sorted by popularity, the vast majority of lists, especially the larger lists, were sorted alphabetically. This seems like a major practicality flaw! If we assume that the most common password is "password," and we are performing a dictionary attack using an English dictionary, we are going to have to slog from "aardvark" through "passover" to get to "password." Now I don't know off the top of my head just how common "aardvark" is as a password - but we could be wasting a lot of time by not starting with the most common password on our list!
 
  I went to SecLists, Weakpass, and Hashes.org and downloaded nearly every single Wordlist containing real passwords I could find. These lists were huge, and I ended up with over 80 GB actual, human-generated and used passwords. These were split up among over 350 files of varying length, sorting scheme, character encoding, origin and other properties. I sorted these files, removed duplicates from within the files themselves, and prepared to join them all together.
 
- Some of these lists were composed of the other lists, and some were exact duplicates. I took care to remove any exact duplicate files - we didn't need to have any avoidable false positives. __*If a password was found across multiple files, I considered this to be an approximation of its popularity.*__ If an entry was found in 5 files, it wasn't too popular. If an entry could be found in 300 files, it was very popular. Using Unix commands, I concatenated all the files into one giant file representing keys to over 4 billion secret areas on the web, and sorted them by number of appearances in the single file. From this, I was able to create a large wordlist sorted by popularity, not the alphabet.
+ Some of these lists were composed of the other lists, and some were exact duplicates. I took care to remove any exact duplicate files - we didn't need to have any avoidable false positives. __*If a password was found across multiple files, I considered this to be an approximation of its popularity.*__ If an entry was found in 5 files, it wasn't too popular. If an entry could be found in 300 files, it was very popular. Using Unix commands, I concatenated all the files into one giant file representing keys to over 4 billion secret areas on the web, and sorted them by number of appearances in the single file. From this, I was able to create a large Wordlist sorted by popularity, not the alphabet.
 
 
 ## Real-Passwords
