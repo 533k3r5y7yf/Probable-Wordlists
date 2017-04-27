@@ -8,12 +8,10 @@ This branch will be pulled to master once all of the largest files have been zip
 
 ### Rev 1.1 Task List
 * [x] Explain methodology
-* [ ] Make Quick-fix for duplicates caused by newline and blankspace characters (not a full fix - Rev 1.2 will be fixed from source)
+* [ ] Make Quick-fix for duplicates caused by newline and blankspace characters (not a full fix, more of a temporary patch)
 * [x] Super-Zip the Dictionary-Style files (in Prelim Branch Only)
 * [ ] Make torrents for the big files
 
-### Rev 1.2 Task List
-* [ ] Re-compile Wordlists from start without newline and blankspace duplicates
 
 ### Rev 2 List
 * More sources
