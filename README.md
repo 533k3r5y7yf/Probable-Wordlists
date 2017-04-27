@@ -1,6 +1,5 @@
 ### To Potential Cloners and Master-Zip Downloaders
-This is a large repository. As of now, there are very few links and no torrents to the files contained within.
-The current repo size is 24GB - be aware!
+This repo USED to be oversized and basically non-clone-able. That has changed due to Zipping and Torrentization - have at it!
 
 ![Probable Wordlists Logo](https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/ProbableWordlistLogo.png)
 
