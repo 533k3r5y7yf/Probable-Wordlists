@@ -1,25 +1,20 @@
-
 # What am I looking at?
 
-### BEncyclopedia-Parts
-  * The BEncyclopedia Wordlist contains all of the other wordlists contained in the Dictionary-Style Folder (and some not)
-  * The full BEncyclopedia Wordlist couldn't fit in one file, so I broke it up into parts
-  
-### Includes Non-English Dictionary Parts
-  * A Dictionary Wordlist containing languages with Latin (or Latin Variant) alphabets
- 
-### Misc Wordlists
+### Misc_Wordlists
   * A pet project of mine I revisit now and again.
   * Includes topical wordlists such as types of dogs, beverages, geographical location, Mythical figures, esoterica, and more
   * I just find these fun - I've used them for Codenames, Drinking Games and randomization schemes.
 
-### BENcyclopedia-Link
-  * A link to a Megaupload file (1.01GB) containing the entire BEncyclopedia
+### BEncyclopedia-Link
+  * A link to a Megaupload file (227.2MB) containing the entire BEncyclopedia
+  * Use this as an alternative to torrenting
   
 ### Includes Non-English Dictionary Link
-  *A link to a Megaupload file (67 MB) containing the entire "Includes Non-English" Dictionary
+  * A link to a Megaupload file (11.2) containing the entire "Includes Non-English" Dictionary
+  * Use this as an alternative to torrenting
   
- 
+### MainEnglishDictionary.txt
+  * A Standard English Dictionary file, but with a ton of words.
 
 ![Probable Wordlists Logo](https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/ProbableWordlistLogo.png)
 
