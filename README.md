@@ -13,7 +13,7 @@ This branch will be pulled to master once all of the largest files have been zip
 * [ ] Make torrents for the big files
 
 ### Rev 1.2 Task List
-* [] Re-compile Wordlists from start without newline and blankspace duplicates
+* [ ] Re-compile Wordlists from start without newline and blankspace duplicates
 
 ### Rev 2 List
 * More sources
@@ -60,6 +60,10 @@ Lists sorted by popularity will include "probable" in the filename
 Wordlists including dictionaries, encyclopedic lists and miscellaneous.
 
 
+## Attributions
+ * [Ian Norden](https://github.com/iancnorden) for helping with duplicates and volunteering his time to make me a little less noobish
+ * The folks over at [OWASP's SecLists](https://www.owasp.org/index.php/Projects/OWASP_SecLists_Project) for providing sources and inspiration
+ * Sources like [Weakpass](https://weakpass.com/), [Crackstation](https://crackstation.net/), [Hashkiller](https://hashkiller.co.uk/) and [Hashes.Org](https://hashes.org/) for inspiration and lists.
 
 ## Disclaimer
  + These lists are for LAWFUL, ETHICAL AND EDUCATIONAL PURPOSES ONLY.
